@@ -37,7 +37,7 @@
         "noTwitchUserFound": "That user does not exist.",
         "userNotSetUpForChannel": "Either that user doesn't exist or is not set up for that channel.",
         "notifRemovedSuccess": "You won't get any notifications in {channel} when `{user}` goes live.",
-        "notifAddedSuccess": "You should now receive a message in {user} when `{user}` goes live."
+        "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
     },
     "utilities": {
         "uptime": "{days} days, {hours} hours, and {minutes} minutes"
