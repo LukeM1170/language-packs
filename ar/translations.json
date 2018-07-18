@@ -1,9 +1,9 @@
 {
     "_meta": {
-        "translators": ["Akira#4587"]
+        "translators": ["Nexus#2895"]
     },
     "errors": {
-        "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
+        "notFound": "لم يتم العثور على قناة Discord. تأكد من أنك لا تضع `<>` حول الاسم. For example: `twitch notif add #channel twitch_user`.",
         "noPrivateMessage": "That command can't be used in private messages.",
         "vheckFailure": "You don't have permission to run this command.",
         "missingRequiredArgument": "You're missing the `{text}` argument.",
