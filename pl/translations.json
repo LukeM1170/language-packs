@@ -84,140 +84,140 @@
             },
             {
                 "name": ":flag_us: :flag_gb: :flag_es: :flag_br: :flag_fr: :flag_jp:",
-                "value": "Want to help translate TwitchBot to your language? We're hiring volunteer translators to make TwitchBot available in multiple languages!\n\n**Apply here if you're interested: https://twitch.disgd.pw/translators**"
+                "value": "Chcesz pomóc w tłumaczeniu TwitchBota na swój język? Zatrudniamy tłumaczy-ochotników, aby TwitchBot był dostępny w wielu językach!\n\n** Zgłoś się tutaj, jeśli jesteś zainteresowany: https://twitch.disgd.pw/translators**"
             }
         ]
     },
     "commands": {
-        "commandsTitle": "<:twitch:404633403603025921> TwitchBot Commands",
-        "commandsIntroMsg": "**Do not put `<>` or `[]` around command arguments.**",
+        "commandsTitle": "<:twitch:404633403603025921> Komendy TwitchBota",
+        "commandsIntroMsg": "**Nie wpisuj wyrażeń pomiędzy `<>` lub `[]`.**",
         "fields": [
             {
                 "name": "General",
-                "value": "`twitch help` - Shows bot help\n`twitch info` - Shows bot info\n`twitch invite` - Displays a link to add TwitchBot to your server\n`twitch status` - Shows bot status\n`twitch ping` - Pong!"
+                "value": "`twitch help` - Pokazuje panel pomocy bota\n`twitch info` - Pokazuje info o bocie\n`twitch invite` - Wyświetla link do dodania TwitchBota do twojego serwera\n`twitch status` - Pokazuje status bota\n`twitch ping` - Pong!"
             },
             {
                 "name": "Twitch",
-                "value": "`twitch user <user>` - Gets info on a Twitch channel\n`twitch stream user <user>` - Gets info on a user's stream\n`twitch stream watch <user>` - Watch a Twitch stream from Discord\n`twitch stream game <name>` - Watch someone stream the specified game\n`twitch stream top` - Fetches info on a top stream\n`twitch game <name>` - Gets info on a Twitch game\n`twitch top` - Gets the most popular Twitch games"
+                "value": "`twitch user <user>` - Pobiera informacje o kanale Twitch\n`twitch stream user <user>` - Pobiera informacje o streamie\n`twitch stream watch <user>` - Oglądaj Twitch Stream na discordzie\n`twitch stream game <name>` - Oglądaj kogoś kto streamuje konkretną grę\n`twitch stream top` - Pobiera informacje o najlepszym streamie\n`twitch game <name>` - Pobiera informacje o grze na Twitchu\n`twitch top` - Zdobywa informacje o najlepszych grach na Twitchu"
             },
             {
                 "name": "Clips",
-                "value": "`twitch clips from <user>` - Gets a clip from the specified Twitch user\n`twitch clips trending` - Gets a trending clip\n`twitch clips game <game>` - Gets a clip from the specified game"
+                "value": "`twitch clips from <user>` - Pobiera klip ze specyficznego kanału na Twitchu\n`twitch clips trending` - Pobiera popularny klip\n`twitch clips game <game>` - Pobiera klip z konkretnej gry"
             }
             {
                 "name": "Streamer Notifications & Live Users",
-                "value": "`twitch notif add <#discord_channel> <twitch_username> [message]` - Adds a streamer notification for a streamer to the specified channel\n`twitch notif remove <#discord_channel> <twitch_username> [message]` - Remove a streamer notification for a streamer to the specified channel\n`twitch notif list [#discord_channel]` - Lists the streamer notifications for the specified channel\n`twitch live_check <role_name>` - Adds the specified role to users when they go live on Twitch, and then removes the role when they stop streaming"
+                "value": "`twitch notif add <#nazwa_kanału> <nazwa_użytkownika_twitch> [wiadomość]` - Dodaje powiadomienie o streamie na dany kanał\n`twitch notif remove <#nazwa_kanału> <nazwa_użytkownika_twitch> [wiadomość]` - Usuwa powiadomienie o streamie na danym kanale\n`twitch notif list [#nazwa_kanału]` - Pokazuje powiadomienia na danym kanale\n`twitch live_check <nazwa_rangi>` - Dodaje daną rolę użytkownikom, którzy odpalają streama po czym zabiera ją gdy użytkownik skończy stream.
             },
             {
                 "name": "Audio",
-                "value": "`twitch listen <user>` - Listen to a Twitch stream in the current voice channel\n`twitch nowplaying` - Shows the stream currently playing, if any\n`twitch leave` - Leaves a voice channel"
+                "value": "`twitch listen <użytkownik>` - Słuchaj streama na obecnym kanale\n`twitch nowplaying` - Pokazuje obecnie odtwarzany stream, jeżeli jest\n`twitch leave` - Wychodzi z kanału głosowego"
             },
             {
                 "name": "Moderation",
-                "value": "`twitch ban <@user> [reason]` - Bans a user\n`twitch kick <@user> [reason]` - Kicks a user\n`twitch purge <amt>` - Deletes <amt> messages from the channel\n`twitch filter set <sensitivity>` - Sets the server-wide toxicity filter\n`twitch filter remove` - Removes the server-wide toxicity filter"
+                "value": "`twitch ban <@użytkownik> [powód]` - Banuje użytknownika\n`twitch kick <@użytkownik> [powód]` - wyrzuca użytkownika\n`twitch purge <ilość>` - Usuwa <ilość> wiadomości z kanału\n`twitch filter set <czułość>` - Ustawia filtr toksyczności dla całego serwera\n`twitch filter remove` - Usuwa filtr toksyczności dla całego serwera"
             },
             {
                 "name": "Game Stats",
-                "value": "`twitch overwatch <pc/psn/xbl> <player>` - Shows Overwatch player stats\n`twitch fortnite <pc/psn/xbl> <player>` - Shows Fortnite player stats\n`twitch rl <pc/psn/xbl> <player>` - Shows Rocket League player stats"
+                "value": "`twitch overwatch <pc/psn/xbl> <gracz>` - Pokazuje statystyki gracza Overwatch\n`twitch fortnite <pc/psn/xbl> <gracz>` - Pokazuje statystyki gracza Fortnite\n`twitch rl <pc/psn/xbl> <gracz>` - Pokazuje statystyki gracza Rocket League"
             }
         ]
     },
     "audio": {
-        "authorNotInVoiceChannel": "You need to be in a voice channel!",
-        "notUpvoted": "<:twitch:404633403603025921> You need to upvote TwitchBot to listen to streams! Upvote here -> <https://discordbots.org/bot/375805687529209857/vote>. If you just upvoted, please allow up to 5 minutes for the upvote to process.\n**Want to skip upvoting?** You can become a patron at <https://patreon.com/devakira> to listen without upvoting.",
-        "loadingStream": "Please wait... <a:loading:414007832849940482>",
-        "userNotOnline": "<:twitch:404633403603025921> This user doesn't exist or is not currently streaming. If you entered the channel's url, try again with just the name.",
-        "nowPlaying": "Now playing in {channel}",
-        "downloadError": "<:twitch:404633403603025921> This user doesn't exist or is not currently streaming.",
-        "fatalException": "A fatal exception occurred:"
+        "authorNotInVoiceChannel": "Musisz być na kanale głosowym!",
+        "notUpvoted": "<:twitch:404633403603025921> Musisz zagłosować na TwitchBota, aby słuchać streamów! Zagłosuj tutaj -> <https://discordbots.org/bot/375805687529209857/vote>. Jeżeli już zagłosowałeś, proszę poczekaj do 5 minut, aby głos się naliczył.\n**Chcesz ominąć głosowanie?** Możesz zostać patronem na <https://patreon.com/devakira>, żeby słuchać bez głosowania.",
+        "loadingStream": "Proszę czekać... <a:loading:414007832849940482>",
+        "userNotOnline": "<:twitch:404633403603025921> Ten użytkownik nie istnieje lub obecnie nie streamuje. Jeśli podałeś adres kanału, spróbuj ponownie, używając tylko nazwy.",
+        "nowPlaying": "Teraz gram na kanale {channel}",
+        "downloadError": "<:twitch:404633403603025921> Ten użytkownik nie istnieje lub obecnie nie streamuje.",
+        "fatalException": "Wystąpił krytyczny wyjątek:"
     },
     "clips": {
-        "invalidSubcommand": "Type `twitch help clips` to view command usage.",
-        "noClipsFound": "No clips found.",
-        "noClipsFoundForGame": "Couldn't find any clips for that game.",
-        "noClipsFoundForUser": "Couldn't find any clips for that user.",
-        "clipMessage": "Check out {user} playing {game}:"
+        "invalidSubcommand": "Napisz `twitch help clips`, aby zobczyć użycie komend.",
+        "noClipsFound": "Nie znaleziono klipów.",
+        "noClipsFoundForGame": "Nie znaleziono klipów dla tej gry.",
+        "noClipsFoundForUser": "Nie znaleziono klipów od tego użytkownika.",
+        "clipMessage": "Zobacz! {user} gra w {game}:"
     },
     "games": {
         "viewStreamsForGame": "[View Streams](https://twitch.tv/directory/game/{game})",
-        "topGames": "<:twitch:404633403603025921> Top Games"
+        "topGames": "<:twitch:404633403603025921> Najlepsze gry"
     },
     "general": {
-        "infoCommandTitle": "<:twitch:404633403603025921> TwitchBot Stats",
-        "uptimeTitle": "Uptime",
-        "versionTitle": "Version",
-        "usageTitle": "Usage",
+        "infoCommandTitle": "<:twitch:404633403603025921> Statystyki TwitchBota",
+        "uptimeTitle": "Czas online",
+        "versionTitle": "Wersja",
+        "usageTitle": "Użycie",
         "shardInfoTitle": "Shard Info",
         "systemTitle": "System",
-        "websiteTitle": "Website",
+        "websiteTitle": "Strona",
         "discordTitle": "Discord",
-        "upvoteTitle": "Upvote",
-        "donateTitle": "Donate",
-        "devTitle": "Developer",
-        "devDescription": "Akira#4587 • [Website](https://disgd.pw)",
-        "usageValue": "**•** {} servers\n**•** {} users\n**•** {} commands run\n**•** {} live checks\n**•** {} streamer notifications",
-        "systemValue": "**•** {}% CPU\n**•** {}/{}MB memory used",
-        "shardInfoValue": "**•** Current shard: {} (real: {})\n**•** Shard latency: {}ms\n**•** Total shards: {}",
-        "infoMsg1": "**{author}**, you can invite me to a server with this link:\n**<https://discordapp.com/api/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot>**",
-        "infoMsg2": "You can also join the support server here:\n**<https://discord.me/konomi>**",
+        "upvoteTitle": "Zagłosuj",
+        "donateTitle": "Podaruj",
+        "devTitle": "Deweloper",
+        "devDescription": "Akira#4587 • [Strona](https://disgd.pw)",
+        "usageValue": "**•** {} serwery\n**•** {} użytkownicy\n**•** {} uruchamianie komendy\n**•** {} sprawdzanie na żywo\n**•** {} powiadomienia stramera",
+        "systemValue": "**•** {}% CPU\n**•** {}/{}Wykorzystana pamięć MB",
+        "shardInfoValue": "**•** Obecny shard: {} (real: {})\n**•** Shard opóżnienie: {}ms\n**•** Łącznie shards: {}",
+        "infoMsg1": "**{autor}**, możesz zaprosić mnie na swój serwer tym linkiem:\n**<https://discordapp.com/api/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot>**",
+        "infoMsg2": "Możesz także wesprzeć serwer tutaj:\n**<https://discord.me/konomi>**",
         "statusTitle": "<:twitch:404633403603025921> Twitch Status",
-        "statusValue": "Current status: `{}`"
+        "statusValue": "Obecny status: `{}`"
     },
     "liveCheck": {
-        "noManageServer": "You need the **Manage Server** permission to do this.",
-        "noLiveCheckSetUp": "No live check has been set up for this server. To add live checking, type `twitch live_check role`.",
-        "liveCheckRemoved": "Successfully removed live checking from this server.",
-        "currentLiveCheck": "Live checking is currently set up to give the `{role}` role to streamers who go live. If you want to delete live checking, type `twitch live_check --delete`.",
-        "noRoleFound": "Could not find a role with the name `{}`. Make sure to only enter the role's name, and not the @mention.",
-        "liveCheckSetUpSuccess": "Users in this server who go live on Twitch will receive the `{}` role.",
-        "userLiveAuditLog": "User went live on Twitch",
-        "userNotLiveAuditLog": "User no longer live on Twitch",
-        "noBotManageRoles": "I need the **`Manage Roles`** permission to do this. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
+        "noManageServer": "Aby to zrobić, potrzebujesz uprawnienia ** Zarządzaj serwerem **.",
+        "noLiveCheckSetUp": "Na tym serwerze nie skonfigurowano sprawdzania na żywo. Aby dodać sprawdzanie na żywo, wpisz `twitch live_check role`.",
+        "liveCheckRemoved": "Pomyślnie usunięto sprawdzanie na żywo z tego serwera.",
+        "currentLiveCheck": "Sprawdzanie aktywności na żywo jest obecnie skonfigurowane tak, aby rola `{role} była nadawana dla streamerów, którzy rozpoczynają transmisję. Jeśli chcesz usunąć sprawdzanie na żywo, wpisz `twitch live_check --delete`.",
+        "noRoleFound": "Nie mogłem znależć roli z nazwą `{}`. Upewnij się, że wpisujesz tylko nazwę roli, a nie @wzmianka.",
+        "liveCheckSetUpSuccess": "Użytkownicy tego serwera, którzy rozpoczną transmisję na Twitch otrzymają rolę `{}`.",
+        "userLiveAuditLog": "Użytkownik jest na żywo na Twitchu",
+        "userNotLiveAuditLog": "Użytkownik już nie jest na żywo na Twitchu",
+        "noBotManageRoles": "Potrzebuję uprawnienia ** Zarządzanie rolami` **. Jeśli mam to uprawnienie, upewnij się, że przeciągasz rolę o nazwie `TwitchBot` powyżej roli, którą chcesz sprawdzić."
     },
     "moderation": {
-        "defaultModActionReason": "No reason specified.",
-        "auditLogTemplate": "Responsible moderator: {moderator}\nReason: {reason}",
-        "banFailed": "That member couldn't be banned. Do they have a higher role than me?",
-        "kickFailed": "That member couldn't be kicked. Do they have a higher role than me?",
-        "invalidMsgAmt": "You can't delete more than 99 or less than 2 messages.",
-        "banSuccess": "Successfully banned **{user}** for reason **{reason}**",
-        "kickSuccess": "Successfully kicked **{user}** for reason **{reason}**",
-        "pruneSuccess": "Deleted {amount} messages.",
-        "pruneGenericError": "Something went wrong. `{errorType}: {errorMsg}`",
-        "invalidFilterSubcommand": "Type `twitch help filter` to view command usage.",
-        "filterDonateMsg": "You need to donate to use this command! <https://paypal.me/akireee>",
-        "invalidSensitivity": "Sensitivity can't be above 85 or below 60.",
-        "filterUpdateSuccess": "Successfully set this server's toxicity filter to **{amount}%**",
-        "noFilter": "No toxicity filter was applied in this server.",
-        "removedFilterSuccess": "Successfully removed this server's toxicity filter."
+        "defaultModActionReason": "Nie podano przyczyny.",
+        "auditLogTemplate": "Odpowiedzialny moderator: {moderator}\nPowód: {reason}",
+        "banFailed": "Tego członka nie można było zbanować. Czy ma on większą rolę niż ja?",
+        "kickFailed": "Tego członka nie można było wyrzucić. Czy ma on większą rolę niż ja?",
+        "invalidMsgAmt": "Nie można usunąć więcej niż 99 lub mniej niż 2 wiadomości.",
+        "banSuccess": "Z powodzeniem zbanowano **{user}** powód: **{reason}**",
+        "kickSuccess": "Z powodzeniem wyrzucono **{user}** powód: **{reason}**",
+        "pruneSuccess": "Skasowano {amount} wiadomości.",
+        "pruneGenericError": "Coś poszło nie tak. `{errorType}: {errorMsg}`",
+        "invalidFilterSubcommand": "Napisz `twitch help filter`, aby zobaczyć użycie komendy.",
+        "filterDonateMsg": "Musisz dać datek, aby używać tej komendy! <https://paypal.me/akireee>",
+        "invalidSensitivity": "Czułość nie może przekraczać 85 lub być poniżej 60.",
+        "filterUpdateSuccess": "Pomyślnie ustawiono filtr toksyczności tego serwera na **{amount}%**",
+        "noFilter": "Na tym serwerze nie zastosowano filtru toksyczności.",
+        "removedFilterSuccess": "Pomyślnie usunięto filtr toksyczności tego serwera."
     },
     "gameStats": {
-        "InvalidPlatform": "Platform must be one of `pc`, `psn`, or `xbl`.",
-        "overwatchInvalidBattletag": "Please enter your battletag in a format of `name#id`.",
-        "overwatchNoResultsFound": "No stats could be found for this player. If your profile is private, you can't see stats for it unless you make it public. Please follow the steps at <https://dotesports.com/overwatch/news/ow-public-private-profile-25347> to make your profile public.",
-        "overwatchEmbedTitle": "Overwatch Stats (Competitive)",
-        "overwatchPoweredBy": "Powered by owapi.net",
-        "fortniteInvalidAccountName": "Player not found. Check the spelling of the username or try a different platform.",
-        "fortniteEmbedTitle": "Fortnite Stats",
-        "fortnitePoweredBy": "Powered by fortnitetracker.com",
-        "rlInvalidAccountName": "Player not found. Please enter the username or Steam profile link of the player, and choose the correct platform.",
-        "rlEmbedTitle": "Rocket League Stats",
-        "rlPoweredBy": "Powered by rocketleaguestats.com"
+        "InvalidPlatform": "Jedna z platform to musi być `pc`, `psn`, lub `xbl`.",
+        "overwatchInvalidBattletag": "Wprowadź swój battletag w formacie `name#id`.",
+        "overwatchNoResultsFound": "Nie znaleziono statystyk dla tego gracza. Jeśli Twój profil jest prywatny, nie możesz wyświetlić statystyk, chyba że go upublicznisz. Postępuj zgodnie z instrukcjami na stronie <https://dotesports.com/overwatch/news/ow-public-private-profile-25347> aby Twój profil był publiczny.",
+        "overwatchEmbedTitle": "Statystyki Overwatch (zawodowe)",
+        "overwatchPoweredBy": "Obsługiwane przez owapi.net",
+        "fortniteInvalidAccountName": "Gracz nieodnaleziony. Sprawdź pisownię nazwy użytkownika lub spróbuj innej platformy.",
+        "fortniteEmbedTitle": "Statystyki Fortnite",
+        "fortnitePoweredBy": "Obsługiwane przez fortnitetracker.com",
+        "rlInvalidAccountName": "Gracz nieodnaleziony. Wprowadź nazwę użytkownika lub link do profilu Steam gracza i wybierz odpowiednią platformę.",
+        "rlEmbedTitle": "Statystyki Rocker League",
+        "rlPoweredBy": "Obsługiwane przez rocketleaguestats.com"
     },
     "streams": {
-        "invalidSubcommand": "Type `twitch commands` to view command usage.",
-        "twitchUserDoesNotExist": "That user doesn't exist or is not online. Make sure you're only entering the user's name and not anything extra, like `()` or `<>`.",
-        "streamUserMsg": "Playing {2} for {0} viewers\n**[Watch on Twitch](https://twitch.tv/{1})** or type `twitch watch {1}`\n\nStream Preview:",
-        "streamWatchMsg": "**<:twitch:404633403603025921> Live on Twitch**\nhttps://twitch.tv/{user}",
-        "gameNotFound": "That game could not be found.",
-        "noStreamsForGame": "Nobody is streaming that game.",
-        "streamGameOrTopMsg": "Check out {0} playing {1} for {2} viewers:\nhttps://twitch.tv/{0}"
+        "invalidSubcommand": "Napisz `twitch commands`, aby zobaczyć użycie komendy.",
+        "twitchUserDoesNotExist": "Ten użytkownik nie istnieje lub nie jest online. Upewnij się, że wpisujesz tylko imię i nazwisko użytkownika, a nie dodatkowe `()` or `<>`.",
+        "streamUserMsg": "Odtwarzam {2} dla {0} oglądających\n**[Oglądaj na Twitchu](https://twitch.tv/{1})** lub napisz `twitch watch {1}`\n\nPodgląd Streama:",
+        "streamWatchMsg": "**<:twitch:404633403603025921> Na żywo na Twitchu**\nhttps://twitch.tv/{user}",
+        "gameNotFound": "Tej gry nie można znaleźć.",
+        "noStreamsForGame": "Nikt nie streamuje tej gry.",
+        "streamGameOrTopMsg": "Sprwadź {0} grających w {1} dla {2} oglądających:\nhttps://twitch.tv/{0}"
     },
     "users": {
-        "twitchUserNotFound": "That user doesn't exist. If you entered the user's full profile url, try redoing the command with just their user name.",
-        "currentlyLive": "Currently Live",
-        "currentlyOffline": "Currently Offline",
-        "onlineUserMsg": "Playing {game} for {viewers} viewers\n\n**[Watch on Twitch](https://twitch.tv/{user})**",
-        "offlineUserMsg": "[View Twitch Profile](https://twitch.tv/{})"
+        "twitchUserNotFound": "Ten użytkownik nie istnieje. Jeśli wprowadzono adres URL pełnego profilu użytkownika, spróbuj powtórzyć polecenie, używając tylko nazwy użytkownika.",
+        "currentlyLive": "Obecnie na żywo",
+        "currentlyOffline": "Obecnie stream wyłączony",
+        "onlineUserMsg": "Odtwarzam {game} dla {viewers} oglądających\n\n**[Oglądaj na Twitchu](https://twitch.tv/{user})**",
+        "offlineUserMsg": "[Wyświetl profil Twitch](https://twitch.tv/{})"
     }
 }
