@@ -4,14 +4,14 @@
     },
     "errors": {
         "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
-        "noPrivateMessage": "That command can't be used in private messages.",
-        "checkFailure": "You don't have permission to run this command.",
+        "noPrivateMessage": "Dit command kan niet worden gebruikt in privé berichten.",
+        "checkFailure": "Je hebt geen permissies om dit command te runnen.",
         "missingRequiredArgument": "You're missing the `{text}` argument.",
-        "commandOnCooldown": "You can run this command again in {amount} seconds.",
-        "keyOrIndexError": "No results found.",
+        "commandOnCooldown": "Je kunt dit commando opnieuw uitvoeren binnen {amount} seconden.",
+        "keyOrIndexError": "Geen resultaten gevonden.",
         "badArgument": "You entered an invalid argument. Type `twitch help {command}` to view command usage.",
-        "genericError": "An Error Occurred",
-        "reportGenericError": "Please report this error to the developers at https://l.disgd.pw/support.",
+        "genericError": "Er is een fout opgetreden.",
+        "reportGenericError": "Meld deze fout aan de ontwikkelaars op https://l.disgd.pw/support.",
         "noBanMembers": "You need the **Ban Members** permission to do this!",
         "noBotBanMembers": "I need the **Ban Members** permission to do this!",
         "noKickMembers": "You need the **Kick Members** permission to do this!",
@@ -34,33 +34,33 @@
         "noNotifsSetUp": "No streamer notifications are set up for this channel.",
         "footerAppendedContent": " • Join the support server at discord.me/konomi if the embed did not display correctly",
         "notifFieldTitle": "Notifications",
-        "noTwitchUserFound": "That user does not exist.",
+        "noTwitchUserFound": "Deze gebruiker bestaat niet.",
         "userNotSetUpForChannel": "Either that user doesn't exist or is not set up for that channel.",
         "notifRemovedSuccess": "You won't get any notifications in {channel} when `{user}` goes live.",
         "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
     },
     "utilities": {
-        "uptime": "{days} days, {hours} hours, and {minutes} minutes"
+        "uptime": "{days} dagen, {hours} uren, en {minutes} minuten"
     },
     "help": {
         "helpTitle": "<:twitch:404633403603025921> TwitchBot Help",
-        "helpIntroMsg": "Hello! <:twitch:404633403603025921> I'm a bot that helps integrate Discord servers with Twitch.",
+        "helpIntroMsg": "Hallo! <:twitch:404633403603025921> Ik ben een bot die helpt Discord servers te integreren met Twitch.",
         "fields": [
             {
                 "name": "Commands",
-                "value": "To view a list of all commands, type `twitch commands`.\n\n**Make sure to leave out `<>` and `[]` when using commands, they're only for the help page.**"
+                "value": "Als je alle commands wilt zien, typ dan `twitch commands`.\n\n**Zorg ervoor dat je `<>` en `[]` weglaat bij het gebruik van de commando's, ze zijn alleen voor de help pagina.**"
             },
             {
                 "name": "Support",
-                "value": "Found an error, or having trouble with the bot? Join the Discord [here](https://discordapp.com/invite/UNYzJqV) and the support team will assist you."
+                "value": "Heb je een fout gevonden of problemen met de bot? Join dan de Discord server [hier](https://discordapp.com/invite/UNYzJqV) en het support team zal je helpen."
             },
             {
                 "name": "Invite",
-                "value": "[Click here](https://discordapp.com/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot&response_type=code&redirect_uri=https://twitch.disgd.pw/thanks.html) to invite me to your Discord server."
+                "value": "[Klik hier](https://discordapp.com/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot&response_type=code&redirect_uri=https://twitch.disgd.pw/thanks.html) Om de bot te inviten voor je server."
             },
             {
                 "name": "Website",
-                "value": "You can view my website at https://twitch.disgd.pw."
+                "value": "Je kunt mijn bezoeken op https://twitch.disgd.pw."
             },
             {
                 "name": "FAQ",
@@ -84,7 +84,7 @@
             },
             {
                 "name": ":flag_us: :flag_gb: :flag_es: :flag_br: :flag_fr: :flag_jp:",
-                "value": "Want to help translate TwitchBot to your language? We're hiring volunteer translators to make TwitchBot available in multiple languages!\n\n**Apply here if you're interested: https://twitch.disgd.pw/translators**"
+                "value": "Wil je TwitchBot vertalen naar jouw taal?  We're hiring volunteer translators to make TwitchBot available in multiple languages!\n\n**Apply here if you're interested: https://twitch.disgd.pw/translators**"
             }
         ]
     },
