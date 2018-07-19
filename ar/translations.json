@@ -6,10 +6,10 @@
         "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
         "noPrivateMessage": ".لا يمكن استخدام هذا الأمر في الرسائل الخاصة",
         "checkFailure": ".ليس لديك إذن لتشغيل هذا الأمر",
-        "missingRequiredArgument": "You're missing the {text} argument.",
-        "commandOnCooldown": "You can run this command again in {amount} seconds.",
+        "missingRequiredArgument": " {text} أنت تفتقد حجة",
+        "commandOnCooldown": "حاول مرة أخرى خلال {amount} ثانية.",
         "keyOrIndexError": ".لا توجد نتائج",
-        "badArgument": "You entered an invalid argument. Type `twitch help {command}` to view command usage.",
+        "badArgument": "اكتب `twitch help {command}` لعرض استخدام الأوامر.لقد أدخلت وسيطة غير صالحة",
         "genericError": "حدث خطأ",
         "reportGenericError": " https://l.disgd.pw/support الرجاء الإبلاغ عن هذا الخطأ للمطورين على",
         "noBanMembers": "أنت بحاجة إلى ** Ban Members ** إذن للقيام بذلك!",
@@ -26,9 +26,9 @@
     },
     "streamerNotifs": {
         "notificationStreamDetails": "Playing {game} for {viewers} viewers",
-        "invalidSubcommand": "View the **`Streamer Notifications`** section under the help command to view usage.",
+        "invalidSubcommand": "تحقق من قسم ** `Streamer Notifications` ** في أمر التعليمات لعرض الاستخدام.",
         "twitchUserDoesNotExist": "That Twitch user doesn't exist. Make sure that you're not putting <> around the name, and that you're not @mentioning a Discord user.",
-        "defaultNotifMsg": "<https://twitch.tv/{user}> is now live on Twitch!",
+        "defaultNotifMsg": "!Twitch يعيش الآن على <https://twitch.tv/{user}>",
         "notifCount": "There are {} streamer notification(s) set up for this channel",
         "embedContentTooLongFallback": "Custom messages weren't included in the embed because there is a Discord-set limit of 1024 characters in a section. They'll still show when the user goes live.",
         "noNotifsSetUp": ".لم يتم إعداد إشعارات البث لهذه القناة",
@@ -40,7 +40,7 @@
         "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
     },
     "utilities": {
-        "uptime": "{days} days, {hours} hours, and {minutes} minutes"
+        "uptime": "{d1} من الأيام و {hour} ساعة و {days} دقيقة"
     },
     "help": {
         "helpTitle": "<:twitch:404633403603025921> مساعدة TwitchBot",
