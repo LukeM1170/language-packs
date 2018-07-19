@@ -5,7 +5,7 @@
     "errors": {
         "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
         "noPrivateMessage": "That command can't be used in private messages.",
-        "vheckFailure": "You don't have permission to run this command.",
+        "checkFailure": "You don't have permission to run this command.",
         "missingRequiredArgument": "You're missing the `{text}` argument.",
         "commandOnCooldown": "You can run this command again in {amount} seconds.",
         "keyOrIndexError": "No results found.",
