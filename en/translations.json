@@ -3,10 +3,10 @@
         "translators": ["Akira#4587"]
     },
     "errors": {
-        "notFound": "Ten kanał nie został znaleziony. Upewnij się że wpisujesz nazwę pomiędzy `<>` . Na przykład: `twitch notif add #kanał użytkownik_twitcha`.",
-        "noPrivateMessage": "Ta komenda nie może zostać użyta w prywatnej wiadomości.",
-        "checkFailure": "Nie masz uprawnień do używania tej komendy.",
-        "missingRequiredArgument": "Brakuje  `{text}`.",
+        "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
+        "noPrivateMessage": "That command can't be used in private messages.",
+        "vheckFailure": "You don't have permission to run this command.",
+        "missingRequiredArgument": "You're missing the `{text}` argument.",
         "commandOnCooldown": "You can run this command again in {amount} seconds.",
         "keyOrIndexError": "No results found.",
         "badArgument": "You entered an invalid argument. Type `twitch help {command}` to view command usage.",
