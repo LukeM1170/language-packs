@@ -139,7 +139,7 @@
         "clipMessage": "Check out {user} playing {game}:"
     },
     "games": {
-        "viewStreamsForGame": "[View Streams](https://twitch.tv/directory/game/{game})",
+        "viewStreamsForGame": "[Show streams](https://twitch.tv/directory/game/{game})",
         "topGames": "<:twitch:404633403603025921> Top Games"
     },
     "general": {
@@ -175,21 +175,21 @@
         "noBotManageRoles": "I need the **`Manage Roles`** permission to do this. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
     },
     "moderation": {
-        "defaultModActionReason": "No reason specified.",
-        "auditLogTemplate": "Responsible moderator: {moderator}\nReason: {reason}",
-        "banFailed": "That member couldn't be banned. Do they have a higher role than me?",
-        "kickFailed": "That member couldn't be kicked. Do they have a higher role than me?",
-        "invalidMsgAmt": "You can't delete more than 99 or less than 2 messages.",
-        "banSuccess": "Successfully banned **{user}** for reason **{reason}**",
-        "kickSuccess": "Successfully kicked **{user}** for reason **{reason}**",
-        "pruneSuccess": "Deleted {amount} messages.",
-        "pruneGenericError": "Something went wrong. `{errorType}: {errorMsg}`",
-        "invalidFilterSubcommand": "Type `twitch help filter` to view command usage.",
-        "filterDonateMsg": "You need to donate to use this command! <https://paypal.me/akireee>",
-        "invalidSensitivity": "Sensitivity can't be above 85 or below 60.",
-        "filterUpdateSuccess": "Successfully set this server's toxicity filter to **{amount}%**",
-        "noFilter": "No toxicity filter was applied in this server.",
-        "removedFilterSuccess": "Successfully removed this server's toxicity filter."
+        "defaultModActionReason": "Geen reden opgegeven.",
+        "auditLogTemplate": "Verantwoordelijke moderator: {moderator}\nReden: {reason}",
+        "banFailed": "Deze gebruiker kon niet worden verbannen. Hebben ze een hogere rol dan ik?",
+        "kickFailed": "Deze gebruiker kon niet worden gekickt. Hebben ze een hogere rol dan ik?",
+        "invalidMsgAmt": "Je kunt niet meer dan 99 of minder dan 2 berichten verwijderen.",
+        "banSuccess": "**{user}** is met succesvol verbannen met de reden **{reason}**",
+        "kickSuccess": "**{user}** is met succesvol gekickt met de reden **{reason}**",
+        "pruneSuccess": "Er zijn {amount} berichten verwijderd.",
+        "pruneGenericError": "Er is iets fout gegaan. `{errorType}: {errorMsg}`",
+        "invalidFilterSubcommand": "Typ `twitch help filter` to view command usage.",
+        "filterDonateMsg": "Je moet doneren om deze command te kunnen gebruiken! <https://paypal.me/akireee>",
+        "invalidSensitivity": "Gevoeligheid mag niet boven 85 of onder 60 zijn.",
+        "filterUpdateSuccess": "Toxicfilter is met succesvol aangepast naar **{amount}%**",
+        "noFilter": "Er is geen toxicfilter toegepast in deze server",
+        "removedFilterSuccess": "Het toxicfilter van deze server is verwijderd."
     },
     "gameStats": {
         "InvalidPlatform": "Platform must be one of `pc`, `psn`, or `xbl`.",
@@ -205,19 +205,19 @@
         "rlPoweredBy": "Powered by rocketleaguestats.com"
     },
     "streams": {
-        "invalidSubcommand": "Type `twitch commands` to view command usage.",
+        "invalidSubcommand": "Typ `twitch commands` to view command usage.",
         "twitchUserDoesNotExist": "That user doesn't exist or is not online. Make sure you're only entering the user's name and not anything extra, like `()` or `<>`.",
-        "streamUserMsg": "Playing {2} for {0} viewers\n**[Watch on Twitch](https://twitch.tv/{1})** or type `twitch watch {1}`\n\nStream Preview:",
-        "streamWatchMsg": "**<:twitch:404633403603025921> Live on Twitch**\nhttps://twitch.tv/{user}",
-        "gameNotFound": "That game could not be found.",
-        "noStreamsForGame": "Nobody is streaming that game.",
+        "streamUserMsg": "Speelt {2} voor {0} kijkers\n**[Bekijk op Twitch](https://twitch.tv/{1})** of typ `twitch watch {1}`\n\nStream Preview:",
+        "streamWatchMsg": "**<:twitch:404633403603025921> Live op Twitch**\nhttps://twitch.tv/{user}",
+        "gameNotFound": "Dit spel kon niet gevonden worden.",
+        "noStreamsForGame": "Niemand streamt deze game.",
         "streamGameOrTopMsg": "Check out {0} playing {1} for {2} viewers:\nhttps://twitch.tv/{0}"
     },
     "users": {
-        "twitchUserNotFound": "That user doesn't exist. If you entered the user's full profile url, try redoing the command with just their user name.",
-        "currentlyLive": "Currently Live",
-        "currentlyOffline": "Currently Offline",
-        "onlineUserMsg": "Playing {game} for {viewers} viewers\n\n**[Watch on Twitch](https://twitch.tv/{user})**",
-        "offlineUserMsg": "[View Twitch Profile](https://twitch.tv/{})"
+        "twitchUserNotFound": "Deze gebruiker bestaat niet. Als u de volledige URL van de gebruiker hebt ingevoerd, probeert u de opdracht opnieuw met alleen hun gebruikersnaam.",
+        "currentlyLive": "Momenteel Live",
+        "currentlyOffline": "Momenteel Offline",
+        "onlineUserMsg": "Speelt {game} voor {viewers} kijkers\n\n**[Bekijk op Twitch](https://twitch.tv/{user})**",
+        "offlineUserMsg": "[Bekijk twitch profiel](https://twitch.tv/{})"
     }
 }
