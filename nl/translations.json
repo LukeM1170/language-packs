@@ -19,10 +19,10 @@
         "noManageMessages": "You need the **Manage Messages** permission to do this!",
         "noBotManageMessages": "I need the **Manage Messages** permission to do this!",
         "noManageServer": "You need the **Manage Server** permission to do this.",
-        "userRegexMismatch": "That doesn't look like a valid Twitch user. You can only include underscores, letters, and numbers."
-    },
+        "userRegexMismatch": "Dat lijkt niet op een geldige Twitch gebruiker. Je kunt alleen, onderstrepen, letters en cijfers gebruiken."
+    }
     "perspective": {
-        "deletedToxicMessage": "{author}, your message was deleted because it triggered toxicity filters. ({score}/{max})"
+        "deletedToxicMessage": "{author}, je bericht is verwijderd omdat het de toxicfilter heeft geactiveerd. ({score}/{max})"
     },
     "streamerNotifs": {
         "notificationStreamDetails": "Playing {game} for {viewers} viewers",
@@ -64,7 +64,7 @@
             },
             {
                 "name": "FAQ",
-                "value": "Some of the most frequently asked questions and answers are listed [here](https://twitch.disgd.pw/how-to.html)."
+                "value": "Veel Gestelde Vragen en antwoorden worden [hier](https://twitch.disgd.pw/how-to.html) vermeld."
             },
             {
                 "name": "Upvote",
@@ -76,7 +76,7 @@
             },
             {
                 "name": "About",
-                "value": "To see statistics and more, type `twitch info`. I was made by Akira#4587 with discord.py rewrite."
+                "value": "Statistieken bekijken en meer, typ dan `twitch info`. Ik ben gemaakt bij Akira#4587 met discord.py herschreven."
             },
             {
                 "name": "Partners",
@@ -132,10 +132,10 @@
         "fatalException": "A fatal exception occurred:"
     },
     "clips": {
-        "invalidSubcommand": "Type `twitch help clips` to view command usage.",
-        "noClipsFound": "No clips found.",
-        "noClipsFoundForGame": "Couldn't find any clips for that game.",
-        "noClipsFoundForUser": "Couldn't find any clips for that user.",
+        "invalidSubcommand": "Typ `twitch help clips` to view command usage.",
+        "noClipsFound": "Geen clips gevonden.",
+        "noClipsFoundForGame": "Kan geen clips vinden voor dit spel.",
+        "noClipsFoundForUser": "Kan geen clips vinden van deze gebruiker.",
         "clipMessage": "Check out {user} playing {game}:"
     },
     "games": {
