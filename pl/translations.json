@@ -27,7 +27,7 @@
     "streamerNotifs": {
         "notificationStreamDetails": "Gra w {game} dla {viewers} widzów",
         "invalidSubcommand": "Wyświetl sekcję **`Streamer Notifications`** używając komendy pomoc, aby zobaczyć użycie.",
-        "twitchUserDoesNotExist": "Taki użytkownik twitcha nie istnieje. Upewnij się że nie wpisujesz nazwy między <> i że nie używasz @wzmianki użytkownika discorda.
+        "twitchUserDoesNotExist": "Taki użytkownik twitcha nie istnieje. Upewnij się że nie wpisujesz nazwy między <> i że nie używasz @wzmianki użytkownika discorda.",
         "defaultNotifMsg": "<https://twitch.tv/{user}> właśnie odpalił streama!",
         "notifCount": "Na tym kanale {} powiadomienia streamera są skonfigurowane",
         "embedContentTooLongFallback": "Niestandardowe wiadomości nie zostały uwzględnione w komunikacie, ponieważ w sekcji znajduje się limit zawierający 1024 znaki. Będą one nadal wyświetlane, gdy użytkownik uruchomi streama.",
