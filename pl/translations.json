@@ -6,81 +6,81 @@
         "notFound": "Ten kanał nie został znaleziony. Upewnij się że wpisujesz nazwę pomiędzy `<>` . Na przykład: `twitch notif add #kanał użytkownik_twitcha`.",
         "noPrivateMessage": "Ta komenda nie może zostać użyta w prywatnej wiadomości.",
         "checkFailure": "Nie masz uprawnień do używania tej komendy.",
-        "missingRequiredArgument": "Brakuje  `{text}`.",
-        "commandOnCooldown": "You can run this command again in {amount} seconds.",
-        "keyOrIndexError": "No results found.",
-        "badArgument": "You entered an invalid argument. Type `twitch help {command}` to view command usage.",
-        "genericError": "An Error Occurred",
-        "reportGenericError": "Please report this error to the developers at https://l.disgd.pw/support.",
-        "noBanMembers": "You need the **Ban Members** permission to do this!",
-        "noBotBanMembers": "I need the **Ban Members** permission to do this!",
-        "noKickMembers": "You need the **Kick Members** permission to do this!",
-        "noBotKickMembers": "I need the **Kick Members** permission to do this!",
-        "noManageMessages": "You need the **Manage Messages** permission to do this!",
-        "noBotManageMessages": "I need the **Manage Messages** permission to do this!",
-        "noManageServer": "You need the **Manage Server** permission to do this.",
-        "userRegexMismatch": "That doesn't look like a valid Twitch user. You can only include underscores, letters, and numbers."
+        "missingRequiredArgument": "Brakuje wyrażenia `{text}`.",
+        "commandOnCooldown": "Możesz użyć tej komendy ponownie za {amount} sekund.",
+        "keyOrIndexError": "Nie znaleziono wyników.",
+        "badArgument": "Wpisano błędne wyrażenie. Wpisz `twitch help {command}` ,aby zobaczyć użycie.",
+        "genericError": "Wystąpił błąd",
+        "reportGenericError": "Proszę, zgłoś ten problem do twórców na stronie https://l.disgd.pw/support.",
+        "noBanMembers": "Potrzebujesz uprawnienia **Banowanie Członków** ,aby to zrobić!",
+        "noBotBanMembers": "Potrzebuję uprawnienia **Banowanie Członków** ,aby to zrobić!",
+        "noKickMembers": "Potrzebujesz uprawnienia **Wyrzucanie Członków** ,aby to zrobić!",
+        "noBotKickMembers": "Potrzebuję uprawnienia **Wyrzucanie Członków** ,aby to zrobić!",
+        "noManageMessages": "Potrzebujesz uprawnienia **Zarządzanie Wiadomościami** ,aby to zrobić!",
+        "noBotManageMessages": "Potrzebuję uprawnienia **Zarządzanie Wiadomościami** ,aby to zrobić!",
+        "noManageServer": "Potrzbujesz uprawnienia **Zarządzanie Serwerem** ,aby to zrobić!",
+        "userRegexMismatch": "To nie wygląda na poprawną nazwę użytkownika Twitcha. Możesz używać tylko podkreśleń, liter i numerów."
     },
     "perspective": {
-        "deletedToxicMessage": "{author}, your message was deleted because it triggered toxicity filters. ({score}/{max})"
+        "deletedToxicMessage": "{author}, Twoja wiadomość została skasowana ponieważ uruchomiła filtry toksyczności. ({score}/{max})"
     },
     "streamerNotifs": {
-        "notificationStreamDetails": "Playing {game} for {viewers} viewers",
-        "invalidSubcommand": "View the **`Streamer Notifications`** section under the help command to view usage.",
-        "twitchUserDoesNotExist": "That Twitch user doesn't exist. Make sure that you're not putting <> around the name, and that you're not @mentioning a Discord user.",
-        "defaultNotifMsg": "<https://twitch.tv/{user}> is now live on Twitch!",
-        "notifCount": "There are {} streamer notification(s) set up for this channel",
-        "embedContentTooLongFallback": "Custom messages weren't included in the embed because there is a Discord-set limit of 1024 characters in a section. They'll still show when the user goes live.",
-        "noNotifsSetUp": "No streamer notifications are set up for this channel.",
-        "footerAppendedContent": " • Join the support server at discord.me/konomi if the embed did not display correctly",
-        "notifFieldTitle": "Notifications",
-        "noTwitchUserFound": "That user does not exist.",
-        "userNotSetUpForChannel": "Either that user doesn't exist or is not set up for that channel.",
-        "notifRemovedSuccess": "You won't get any notifications in {channel} when `{user}` goes live.",
-        "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
+        "notificationStreamDetails": "Gra w {game} dla {viewers} widzów",
+        "invalidSubcommand": "Wyświetl sekcję **`Streamer Notifications`** używając komendy pomoc, aby zobaczyć użycie.",
+        "twitchUserDoesNotExist": "Taki użytkownik twitcha nie istnieje. Upewnij się że nie wpisujesz nazwy między <> i że nie używasz @wzmianki użytkownika discorda.
+        "defaultNotifMsg": "<https://twitch.tv/{user}> właśnie odpalił streama!",
+        "notifCount": "Na tym kanale {} powiadomienia streamera są skonfigurowane",
+        "embedContentTooLongFallback": "Niestandardowe wiadomości nie zostały uwzględnione w komunikacie, ponieważ w sekcji znajduje się limit zawierający 1024 znaki. Będą one nadal wyświetlane, gdy użytkownik uruchomi streama.",
+        "noNotifsSetUp": "Dla tego kanału nie są skonfigurowane powiadomienia o streamerach.",
+        "footerAppendedContent": " • Dołącz do serwera wsparcia na discord.me/konomi, jeśli komunikat nie wyświetla się poprawnie",
+        "notifFieldTitle": "Powiadomienia",
+        "noTwitchUserFound": "Ten użytkownik nie istnieje.",
+        "userNotSetUpForChannel": "Ten użytkownik nie istnieje lub nie jest skonfigurowany dla tego kanału.",
+        "notifRemovedSuccess": "Nie otrzymasz więcej żadnych powiadomień na kanale {channel} kiedy `{user}` odpali streama.",
+        "notifAddedSuccess": "Powinieneś teraz otrzymać powiadomienie na kanale {channel} kiedy `{user}` odpali streama."
     },
     "utilities": {
-        "uptime": "{days} days, {hours} hours, and {minutes} minutes"
+        "uptime": "{days} dni, {hours} godzin oraz {minutes} minut"
     },
     "help": {
-        "helpTitle": "<:twitch:404633403603025921> TwitchBot Help",
-        "helpIntroMsg": "Hello! <:twitch:404633403603025921> I'm a bot that helps integrate Discord servers with Twitch.",
+        "helpTitle": "<:twitch:404633403603025921> TwitchBot Pomoc",
+        "helpIntroMsg": "Witaj! <:twitch:404633403603025921> Jestem botem, który pomaga połączyć serwery Discorda z Twitchem.",
         "fields": [
             {
                 "name": "Commands",
-                "value": "To view a list of all commands, type `twitch commands`.\n\n**Make sure to leave out `<>` and `[]` when using commands, they're only for the help page.**"
+                "value": "Aby wyświetlić pełną listę komend wpisz `twitch commands`.\n\n**upewnij się że zostawiasz `<>` i `[]` ,kiedy używasz komend, znaki te są na stronie pomocy.**"
             },
             {
                 "name": "Support",
-                "value": "Found an error, or having trouble with the bot? Join the Discord [here](https://discordapp.com/invite/UNYzJqV) and the support team will assist you."
+                "value": "Znaleziono błąd lub są problemy z botem? Dołącz do Discorda [here](https://discordapp.com/invite/UNYzJqV) i drużyna wsparcia Ci pomoże."
             },
             {
                 "name": "Invite",
-                "value": "[Click here](https://discordapp.com/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot&response_type=code&redirect_uri=https://twitch.disgd.pw/thanks.html) to invite me to your Discord server."
+                "value": "[Kliknij tutaj](https://discordapp.com/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot&response_type=code&redirect_uri=https://twitch.disgd.pw/thanks.html) ,aby zaprosić mnie na serwer Discorda."
             },
             {
                 "name": "Website",
-                "value": "You can view my website at https://twitch.disgd.pw."
+                "value": "Możesz zobaczyć moją stronę na https://twitch.disgd.pw."
             },
             {
                 "name": "FAQ",
-                "value": "Some of the most frequently asked questions and answers are listed [here](https://twitch.disgd.pw/how-to.html)."
+                "value": "Niektóre, najczęściej zadawane pytania i odpowiedzi są zebrane [here](https://twitch.disgd.pw/how-to.html)."
             },
             {
                 "name": "Upvote",
-                "value": "[Upvote me on DBL](https://discordbots.org/bot/twitch/vote) to get access to audio."
+                "value": "[Zagłosuj na mnie na DBL](https://discordbots.org/bot/twitch/vote), aby uzyskać dostęp do audio."
             },
             {
                 "name": "Donate",
-                "value": "Want to help keep me running on Discord, and get a couple rewards for doing so? Visit my Patreon at https://patreon.com/devakira."
+                "value": "Chcesz abym dalej działał na Discordzie i dostać za to parę nagród? Odwiedź mój Patreon na https://patreon.com/devakira."
             },
             {
                 "name": "About",
-                "value": "To see statistics and more, type `twitch info`. I was made by Akira#4587 with discord.py rewrite."
+                "value": "Aby wyświetlić statystyki i więcej, wpisz `twitch info`. Zostałem stworzony przez Akira # 4587 z discord.py rewrite."
             },
             {
                 "name": "Partners",
-                "value": "We're looking for passionate Twitch streamers who use TwitchBot. Apply and get exclusive rewards: https://twitch.disgd.pw/partners"
+                "value": "Szukamy streamerów Twitcha, którzy używają TwitchBota. Złóż podanie i zdobądź wyjątkowe nagrody: https://twitch.disgd.pw/partners"
             },
             {
                 "name": ":flag_us: :flag_gb: :flag_es: :flag_br: :flag_fr: :flag_jp:",
