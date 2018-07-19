@@ -1,24 +1,24 @@
 {
     "_meta": {
-        "translators": ["Akira#4587"]
+        "translators": ["Nekophile#4554"]
     },
     "errors": {
         "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
-        "noPrivateMessage": "That command can't be used in private messages.",
+        "noPrivateMessage": "Dieser Befehl kann nicht in privaten Nachrichten genutzt werden.",
         "checkFailure": "You don't have permission to run this command.",
         "missingRequiredArgument": "You're missing the `{text}` argument.",
         "commandOnCooldown": "You can run this command again in {amount} seconds.",
-        "keyOrIndexError": "No results found.",
+        "keyOrIndexError": "Keine Ergebnisse gefunden.",
         "badArgument": "You entered an invalid argument. Type `twitch help {command}` to view command usage.",
-        "genericError": "An Error Occurred",
+        "genericError": "Ein Fehler ist aufgetreten.",
         "reportGenericError": "Please report this error to the developers at https://l.disgd.pw/support.",
-        "noBanMembers": "You need the **Ban Members** permission to do this!",
-        "noBotBanMembers": "I need the **Ban Members** permission to do this!",
-        "noKickMembers": "You need the **Kick Members** permission to do this!",
-        "noBotKickMembers": "I need the **Kick Members** permission to do this!",
-        "noManageMessages": "You need the **Manage Messages** permission to do this!",
-        "noBotManageMessages": "I need the **Manage Messages** permission to do this!",
-        "noManageServer": "You need the **Manage Server** permission to do this.",
+        "noBanMembers": "Du brauchst die **Ban Members** Berechtigung, um das zu tun!",
+        "noBotBanMembers": "Ich brauche die **Ban Members** Berechtigung, um das zu tun!",
+        "noKickMembers": "Du brauchst die **Kick Members** Berechtigung, um das zu tun!",
+        "noBotKickMembers": "Ich brauche die **Kick Members** Berechtigung, um das zu tun",
+        "noManageMessages": "Du brauchst die **Manage Messages** Berechtigung, um das zu tun!",
+        "noBotManageMessages": "Ich brauche die **Manage Messages** Berechtigung, um das zu tun!",
+        "noManageServer": "Du brauchst die **Manage Server** Berechtigung, um das zu tun",
         "userRegexMismatch": "That doesn't look like a valid Twitch user. You can only include underscores, letters, and numbers."
     },
     "perspective": {
