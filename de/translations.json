@@ -3,15 +3,15 @@
         "translators": ["Nekophile#4554","x5c0d3#1085"]
     },
     "errors": {
-        "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
+        "notFound": "Der Discord Kanal konnte nicht gefunden werden. Stelle sicher, dass du nicht `<>` um den Namen setzt. Zum Beispiel: `twitch notif add #channel twitch_user`.",
         "noPrivateMessage": "Dieser Befehl kann nicht in privaten Nachrichten genutzt werden.",
-        "checkFailure": "You don't have permission to run this command.",
-        "missingRequiredArgument": "You're missing the `{text}` argument.",
-        "commandOnCooldown": "You can run this command again in {amount} seconds.",
+        "checkFailure": "Dir fehlt die Berechtigung, um diesen Befehl auszuführen.",
+        "missingRequiredArgument": "Dir fehlt der `{text}` Parameter.",
+        "commandOnCooldown": "Du kannst diesen Befehl in {amount} Sekunden wieder ausführen.",
         "keyOrIndexError": "Keine Ergebnisse gefunden.",
-        "badArgument": "You entered an invalid argument. Type `twitch help {command}` to view command usage.",
+        "badArgument": "Du hast einen ungültigen Parameter verwendet. Tippe, `twitch help {command}` um die Befehle anzuzeigen.",
         "genericError": "Ein Fehler ist aufgetreten.",
-        "reportGenericError": "Please report this error to the developers at https://l.disgd.pw/support.",
+        "reportGenericError": "Bitte melde diesen Fehler den Entwicklern unter https://l.disgd.pw/support.",
         "noBanMembers": "Du brauchst die **Ban Members** Berechtigung, um das zu tun!",
         "noBotBanMembers": "Ich brauche die **Ban Members** Berechtigung, um das zu tun!",
         "noKickMembers": "Du brauchst die **Kick Members** Berechtigung, um das zu tun!",
@@ -19,22 +19,22 @@
         "noManageMessages": "Du brauchst die **Manage Messages** Berechtigung, um das zu tun!",
         "noBotManageMessages": "Ich brauche die **Manage Messages** Berechtigung, um das zu tun!",
         "noManageServer": "Du brauchst die **Manage Server** Berechtigung, um das zu tun",
-        "userRegexMismatch": "That doesn't look like a valid Twitch user. You can only include underscores, letters, and numbers."
+        "userRegexMismatch": "Das sieht nicht wie ein gültiger Twitch Benutzer aus. Du kannst Unterstriche, Buchstaben und Zahlen verwenden."
     },
     "perspective": {
         "deletedToxicMessage": "{author}, your message was deleted because it triggered toxicity filters. ({score}/{max})"
     },
     "streamerNotifs": {
-        "notificationStreamDetails": "Playing {game} for {viewers} viewers",
+        "notificationStreamDetails": "Spielt {game} für {viewers} Zuschauer",
         "invalidSubcommand": "View the **`Streamer Notifications`** section under the help command to view usage.",
         "twitchUserDoesNotExist": "That Twitch user doesn't exist. Make sure that you're not putting <> around the name, and that you're not @mentioning a Discord user.",
-        "defaultNotifMsg": "<https://twitch.tv/{user}> is now live on Twitch!",
-        "notifCount": "There are {} streamer notification(s) set up for this channel",
+        "defaultNotifMsg": "<https://twitch.tv/{user}> ist jetzt live auf Twitch!",
+        "notifCount": "Es sind {} Streamer Benachrichtigungen(en) für diesen Kanal eingestellt",
         "embedContentTooLongFallback": "Custom messages weren't included in the embed because there is a Discord-set limit of 1024 characters in a section. They'll still show when the user goes live.",
-        "noNotifsSetUp": "No streamer notifications are set up for this channel.",
+        "noNotifsSetUp": "Es wurden keine Streamer Benachrichtigungen für diesen Kanal eingestellt.",
         "footerAppendedContent": " • Join the support server at discord.me/konomi if the embed did not display correctly",
-        "notifFieldTitle": "Notifications",
-        "noTwitchUserFound": "That user does not exist.",
+        "notifFieldTitle": "Benachrichtigungen",
+        "noTwitchUserFound": "Der Benutzer existiert nicht.",
         "userNotSetUpForChannel": "Either that user doesn't exist or is not set up for that channel.",
         "notifRemovedSuccess": "You won't get any notifications in {channel} when `{user}` goes live.",
         "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
@@ -164,7 +164,7 @@
         "statusValue": "Aktueller Status: `{}`"
     },
     "liveCheck": {
-        "noManageServer": "You need the **Manage Server** permission to do this.",
+        "noManageServer": "Du brauchst die **Manage Server** Berechtigung, um das zu tun.",
         "noLiveCheckSetUp": "No live check has been set up for this server. To add live checking, type `twitch live_check role`.",
         "liveCheckRemoved": "Successfully removed live checking from this server.",
         "currentLiveCheck": "Live checking is currently set up to give the `{role}` role to streamers who go live. If you want to delete live checking, type `twitch live_check --delete`.",
@@ -175,7 +175,7 @@
         "noBotManageRoles": "I need the **`Manage Roles`** permission to do this. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
     },
     "moderation": {
-        "defaultModActionReason": "No reason specified.",
+        "defaultModActionReason": "Kein Grund angegeben.",
         "auditLogTemplate": "Responsible moderator: {moderator}\nReason: {reason}",
         "banFailed": "That member couldn't be banned. Do they have a higher role than me?",
         "kickFailed": "That member couldn't be kicked. Do they have a higher role than me?",
