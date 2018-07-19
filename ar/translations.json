@@ -31,11 +31,11 @@
         "defaultNotifMsg": "<https://twitch.tv/{user}> is now live on Twitch!",
         "notifCount": "There are {} streamer notification(s) set up for this channel",
         "embedContentTooLongFallback": "Custom messages weren't included in the embed because there is a Discord-set limit of 1024 characters in a section. They'll still show when the user goes live.",
-        "noNotifsSetUp": "No streamer notifications are set up for this channel.",
+        "noNotifsSetUp": ".لم يتم إعداد إشعارات البث لهذه القناة",
         "footerAppendedContent": " • Join the support server at discord.me/konomi if the embed did not display correctly",
-        "notifFieldTitle": "Notifications",
-        "noTwitchUserFound": "That user does not exist.",
-        "userNotSetUpForChannel": "Either that user doesn't exist or is not set up for that channel.",
+        "notifFieldTitle": "إخطارات",
+        "noTwitchUserFound": ".هذا المستخدم غير موجود",
+        "userNotSetUpForChannel": "إما أن هذا المستخدم غير موجود أو لم يتم إعداده لهذه القناة",
         "notifRemovedSuccess": "You won't get any notifications in {channel} when `{user}` goes live.",
         "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
     },
@@ -43,7 +43,7 @@
         "uptime": "{days} days, {hours} hours, and {minutes} minutes"
     },
     "help": {
-        "helpTitle": "<:twitch:404633403603025921> TwitchBot Help",
+        "helpTitle": "<:twitch:404633403603025921> مساعدة TwitchBot",
         "helpIntroMsg": "Hello! <:twitch:404633403603025921> I'm a bot that helps integrate Discord servers with Twitch.",
         "fields": [
             {
@@ -123,19 +123,19 @@
         ]
     },
     "audio": {
-        "authorNotInVoiceChannel": "You need to be in a voice channel!",
+        "authorNotInVoiceChannel": "!يجب أن تكون في قناة صوتية",
         "notUpvoted": "<:twitch:404633403603025921> You need to upvote TwitchBot to listen to streams! Upvote here -> <https://discordbots.org/bot/375805687529209857/vote>. If you just upvoted, please allow up to 5 minutes for the upvote to process.\n**Want to skip upvoting?** You can become a patron at <https://patreon.com/devakira> to listen without upvoting.",
         "loadingStream": "Please wait... <a:loading:414007832849940482>",
         "userNotOnline": "<:twitch:404633403603025921> This user doesn't exist or is not currently streaming. If you entered the channel's url, try again with just the name.",
         "nowPlaying": "Now playing in {channel}",
         "downloadError": "<:twitch:404633403603025921> This user doesn't exist or is not currently streaming.",
-        "fatalException": "A fatal exception occurred:"
+        "fatalException": ":حدث استثناء فادح"
     },
     "clips": {
         "invalidSubcommand": "Type `twitch help clips` to view command usage.",
-        "noClipsFound": "No clips found.",
-        "noClipsFoundForGame": "Couldn't find any clips for that game.",
-        "noClipsFoundForUser": "Couldn't find any clips for that user.",
+        "noClipsFound": "لم يتم العثور على مقاطع فيديو.",
+        "noClipsFoundForGame": ".لا يمكن العثور على أي مقاطع لهذه اللعبة",
+        "noClipsFoundForUser": ".تعذر العثور على أي مقاطع لهذا المستخدم",
         "clipMessage": "Check out {user} playing {game}:"
     },
     "games": {
@@ -144,16 +144,16 @@
     },
     "general": {
         "infoCommandTitle": "<:twitch:404633403603025921> TwitchBot Stats",
-        "uptimeTitle": "Uptime",
-        "versionTitle": "Version",
-        "usageTitle": "Usage",
-        "shardInfoTitle": "Shard Info",
-        "systemTitle": "System",
-        "websiteTitle": "Website",
+        "uptimeTitle": "مدة التشغيل",
+        "versionTitle": "الإصدار",
+        "usageTitle": "استعمال",
+        "shardInfoTitle": "معلومات Shard",
+        "systemTitle": "النظام",
+        "websiteTitle": "موقع الكتروني",
         "discordTitle": "Discord",
-        "upvoteTitle": "Upvote",
-        "donateTitle": "Donate",
-        "devTitle": "Developer",
+        "upvoteTitle": "تصويت",
+        "donateTitle": "تبرع",
+        "devTitle": "مطور",
         "devDescription": "Akira#4587 • [Website](https://disgd.pw)",
         "usageValue": "**•** {} servers\n**•** {} users\n**•** {} commands run\n**•** {} live checks\n**•** {} streamer notifications",
         "systemValue": "**•** {}% CPU\n**•** {}/{}MB memory used",
@@ -164,60 +164,60 @@
         "statusValue": "Current status: `{}`"
     },
     "liveCheck": {
-        "noManageServer": "You need the **Manage Server** permission to do this.",
+        "noManageServer": "أنت في حاجة إلى إذن **Manage Server** للقيام بذلك.",
         "noLiveCheckSetUp": "No live check has been set up for this server. To add live checking, type `twitch live_check role`.",
         "liveCheckRemoved": "Successfully removed live checking from this server.",
         "currentLiveCheck": "Live checking is currently set up to give the `{role}` role to streamers who go live. If you want to delete live checking, type `twitch live_check --delete`.",
         "noRoleFound": "Could not find a role with the name `{}`. Make sure to only enter the role's name, and not the @mention.",
         "liveCheckSetUpSuccess": "Users in this server who go live on Twitch will receive the `{}` role.",
-        "userLiveAuditLog": "User went live on Twitch",
-        "userNotLiveAuditLog": "User no longer live on Twitch",
+        "userLiveAuditLog": " Twitch بدأ المستخدم البث المباشر على",
+        "userNotLiveAuditLog": "Twitch لم يعد المستخدم البث المباشر على",
         "noBotManageRoles": "I need the **`Manage Roles`** permission to do this. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
     },
     "moderation": {
-        "defaultModActionReason": "No reason specified.",
+        "defaultModActionReason": ".لا يوجد سبب محدد",
         "auditLogTemplate": "Responsible moderator: {moderator}\nReason: {reason}",
         "banFailed": "That member couldn't be banned. Do they have a higher role than me?",
         "kickFailed": "That member couldn't be kicked. Do they have a higher role than me?",
-        "invalidMsgAmt": "You can't delete more than 99 or less than 2 messages.",
+        "invalidMsgAmt": "لا يمكنك حذف أكثر من 99 رسالة أو أقل من رسالتين.",
         "banSuccess": "Successfully banned **{user}** for reason **{reason}**",
         "kickSuccess": "Successfully kicked **{user}** for reason **{reason}**",
         "pruneSuccess": "Deleted {amount} messages.",
         "pruneGenericError": "Something went wrong. `{errorType}: {errorMsg}`",
         "invalidFilterSubcommand": "Type `twitch help filter` to view command usage.",
         "filterDonateMsg": "You need to donate to use this command! <https://paypal.me/akireee>",
-        "invalidSensitivity": "Sensitivity can't be above 85 or below 60.",
+        "invalidSensitivity": "لا يمكن أن تكون الحساسية أعلى من 85 أو أقل من 60.",
         "filterUpdateSuccess": "Successfully set this server's toxicity filter to **{amount}%**",
         "noFilter": "No toxicity filter was applied in this server.",
-        "removedFilterSuccess": "Successfully removed this server's toxicity filter."
+        "removedFilterSuccess": ".تمت إزالة فلتر السمية لهذا الخادم بنجاح"
     },
     "gameStats": {
         "InvalidPlatform": "Platform must be one of `pc`, `psn`, or `xbl`.",
         "overwatchInvalidBattletag": "Please enter your battletag in a format of `name#id`.",
         "overwatchNoResultsFound": "No stats could be found for this player. If your profile is private, you can't see stats for it unless you make it public. Please follow the steps at <https://dotesports.com/overwatch/news/ow-public-private-profile-25347> to make your profile public.",
         "overwatchEmbedTitle": "Overwatch Stats (Competitive)",
-        "overwatchPoweredBy": "Powered by owapi.net",
-        "fortniteInvalidAccountName": "Player not found. Check the spelling of the username or try a different platform.",
-        "fortniteEmbedTitle": "Fortnite Stats",
-        "fortnitePoweredBy": "Powered by fortnitetracker.com",
-        "rlInvalidAccountName": "Player not found. Please enter the username or Steam profile link of the player, and choose the correct platform.",
-        "rlEmbedTitle": "Rocket League Stats",
-        "rlPoweredBy": "Powered by rocketleaguestats.com"
+        "overwatchPoweredBy": "owapi.net مدعوم من",
+        "fortniteInvalidAccountName": ".اللاعب غير موجود. تحقق من هجاء اسم المستخدم أو جرّب نظامًا أساسيًا مختلفًا",
+        "fortniteEmbedTitle": "احصائيات Fortnite",
+        "fortnitePoweredBy": " fortnitetracker.com مدعوم من",
+        "rlInvalidAccountName": ".اللاعب غير موجود. الرجاء إدخال اسم المستخدم أو ارتباط ملف تعريف Steam للاعب ، واختيار النظام الأساسي الصحيح",
+        "rlEmbedTitle": "احصائيات Rocket League ",
+        "rlPoweredBy": " rocketleaguestats.com مدعوم من"
     },
     "streams": {
         "invalidSubcommand": "Type `twitch commands` to view command usage.",
         "twitchUserDoesNotExist": "That user doesn't exist or is not online. Make sure you're only entering the user's name and not anything extra, like `()` or `<>`.",
         "streamUserMsg": "Playing {2} for {0} viewers\n**[Watch on Twitch](https://twitch.tv/{1})** or type `twitch watch {1}`\n\nStream Preview:",
         "streamWatchMsg": "**<:twitch:404633403603025921> Live on Twitch**\nhttps://twitch.tv/{user}",
-        "gameNotFound": "That game could not be found.",
-        "noStreamsForGame": "Nobody is streaming that game.",
+        "gameNotFound": ".هذه اللعبة لا يمكن العثور عليها",
+        "noStreamsForGame": ".لا أحد يتدفق تلك اللعبة",
         "streamGameOrTopMsg": "Check out {0} playing {1} for {2} viewers:\nhttps://twitch.tv/{0}"
     },
     "users": {
-        "twitchUserNotFound": "That user doesn't exist. If you entered the user's full profile url, try redoing the command with just their user name.",
-        "currentlyLive": "Currently Live",
-        "currentlyOffline": "Currently Offline",
+        "twitchUserNotFound": "هذا المستخدم غير موجود. إذا أدخلت عنوان URL الكامل للملف الشخصي ، فجرِّب إعادة الأمر باستخدام اسم المستخدم الخاص به فقط.",
+        "currentlyLive": "بث مباشر حاليًا",
+        "currentlyOffline": "حاليا غير متصل",
         "onlineUserMsg": "Playing {game} for {viewers} viewers\n\n**[Watch on Twitch](https://twitch.tv/{user})**",
-        "offlineUserMsg": "[View Twitch Profile](https://twitch.tv/{})"
+        "offlineUserMsg": "[عرض الصفحة الشخصية](https://twitch.tv/{})"
     }
 }
