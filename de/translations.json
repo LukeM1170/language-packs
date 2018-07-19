@@ -1,6 +1,6 @@
 {
     "_meta": {
-        "translators": ["Nekophile#4554"]
+        "translators": ["Nekophile#4554","x5c0d3#1085"]
     },
     "errors": {
         "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
@@ -40,10 +40,10 @@
         "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
     },
     "utilities": {
-        "uptime": "{days} days, {hours} hours, and {minutes} minutes"
+        "uptime": "{days} Tage, {hours} Stunden, und {minutes} Minuten"
     },
     "help": {
-        "helpTitle": "<:twitch:404633403603025921> TwitchBot Help",
+        "helpTitle": "<:twitch:404633403603025921> TwitchBot Hilfe",
         "helpIntroMsg": "Hello! <:twitch:404633403603025921> I'm a bot that helps integrate Discord servers with Twitch.",
         "fields": [
             {
@@ -146,22 +146,22 @@
         "infoCommandTitle": "<:twitch:404633403603025921> TwitchBot Stats",
         "uptimeTitle": "Uptime",
         "versionTitle": "Version",
-        "usageTitle": "Usage",
+        "usageTitle": "Nutzung",
         "shardInfoTitle": "Shard Info",
         "systemTitle": "System",
-        "websiteTitle": "Website",
+        "websiteTitle": "Webseite",
         "discordTitle": "Discord",
         "upvoteTitle": "Upvote",
-        "donateTitle": "Donate",
-        "devTitle": "Developer",
+        "donateTitle": "Spende",
+        "devTitle": "Entwickler",
         "devDescription": "Akira#4587 • [Website](https://disgd.pw)",
-        "usageValue": "**•** {} servers\n**•** {} users\n**•** {} commands run\n**•** {} live checks\n**•** {} streamer notifications",
+        "usageValue": "**•** {} Server\n**•** {} Nutzer\n**•** {} Befehle genutzt\n**•** {} Live Checks\n**•** {} Streamer Benachrichtigungen",
         "systemValue": "**•** {}% CPU\n**•** {}/{}MB memory used",
         "shardInfoValue": "**•** Current shard: {} (real: {})\n**•** Shard latency: {}ms\n**•** Total shards: {}",
         "infoMsg1": "**{author}**, you can invite me to a server with this link:\n**<https://discordapp.com/api/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot>**",
         "infoMsg2": "You can also join the support server here:\n**<https://discord.me/konomi>**",
         "statusTitle": "<:twitch:404633403603025921> Twitch Status",
-        "statusValue": "Current status: `{}`"
+        "statusValue": "Aktueller Status: `{}`"
     },
     "liveCheck": {
         "noManageServer": "You need the **Manage Server** permission to do this.",
