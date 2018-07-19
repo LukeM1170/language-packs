@@ -106,7 +106,7 @@
             }
             {
                 "name": "Streamer Notifications & Live Users",
-                "value": "`twitch notif add <#nazwa_kanału> <nazwa_użytkownika_twitch> [wiadomość]` - Dodaje powiadomienie o streamie na dany kanał\n`twitch notif remove <#nazwa_kanału> <nazwa_użytkownika_twitch> [wiadomość]` - Usuwa powiadomienie o streamie na danym kanale\n`twitch notif list [#nazwa_kanału]` - Pokazuje powiadomienia na danym kanale\n`twitch live_check <nazwa_rangi>` - Dodaje daną rolę użytkownikom, którzy odpalają streama po czym zabiera ją gdy użytkownik skończy stream.
+                "value": "`twitch notif add <#nazwa_kanału> <nazwa_użytkownika_twitch> [wiadomość]` - Dodaje powiadomienie o streamie na dany kanał\n`twitch notif remove <#nazwa_kanału> <nazwa_użytkownika_twitch> [wiadomość]` - Usuwa powiadomienie o streamie na danym kanale\n`twitch notif list [#nazwa_kanału]` - Pokazuje powiadomienia na danym kanale\n`twitch live_check <nazwa_rangi>` - Dodaje daną rolę użytkownikom, którzy odpalają streama po czym zabiera ją gdy użytkownik skończy stream.",
             },
             {
                 "name": "Audio",
