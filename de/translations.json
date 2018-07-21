@@ -35,36 +35,36 @@
         "footerAppendedContent": " • Join the support server at discord.me/konomi if the embed did not display correctly",
         "notifFieldTitle": "Benachrichtigungen",
         "noTwitchUserFound": "Der Benutzer existiert nicht.",
-        "userNotSetUpForChannel": "Either that user doesn't exist or is not set up for that channel.",
-        "notifRemovedSuccess": "You won't get any notifications in {channel} when `{user}` goes live.",
-        "notifAddedSuccess": "You should now receive a message in {channel} when `{user}` goes live."
+        "userNotSetUpForChannel": "Entweder der Benutzer existiert nicht oder er wurde nicht für diesen Kanal eingerichtet.",
+        "notifRemovedSuccess": "Du wirst keine Benachrichtigungen in {channel} erhalten, wenn `{user}` live ist.",
+        "notifAddedSuccess": "Du solltest jetzt eine Nachricht in {channel} erhalten, wenn `{user}` live ist."
     },
     "utilities": {
         "uptime": "{days} Tage, {hours} Stunden, und {minutes} Minuten"
     },
     "help": {
         "helpTitle": "<:twitch:404633403603025921> TwitchBot Hilfe",
-        "helpIntroMsg": "Hello! <:twitch:404633403603025921> I'm a bot that helps integrate Discord servers with Twitch.",
+        "helpIntroMsg": "Hallo! <:twitch:404633403603025921> Ich bin ein Bot der dabei hilft, Discord Server in Twitch zu integrieren.",
         "fields": [
             {
                 "name": "Commands",
-                "value": "To view a list of all commands, type `twitch commands`.\n\n**Make sure to leave out `<>` and `[]` when using commands, they're only for the help page.**"
+                "value": "Um alle Befehle anzuzeigen, tippe `twitch commands`.\n\n**Stelle sicher, weder `<>` noch `[]` bei Befehlen zu verwenden, sie dienen nur der Hilfe.**"
             },
             {
                 "name": "Support",
-                "value": "Found an error, or having trouble with the bot? Join the Discord [here](https://discordapp.com/invite/UNYzJqV) and the support team will assist you."
+                "value": "Hast du einen Fehler gefunden oder Probleme mit dem Bot? Trete dem Discord Server bei [here](https://discordapp.com/invite/UNYzJqV) und der Support wird dir helfen."
             },
             {
                 "name": "Invite",
-                "value": "[Click here](https://discordapp.com/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot&response_type=code&redirect_uri=https://twitch.disgd.pw/thanks.html) to invite me to your Discord server."
+                "value": "[Klicke hier](https://discordapp.com/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot&response_type=code&redirect_uri=https://twitch.disgd.pw/thanks.html) um mich auf deinen Discord Server einzuladen."
             },
             {
                 "name": "Website",
-                "value": "You can view my website at https://twitch.disgd.pw."
+                "value": "Meine Webseite findest du auf https://twitch.disgd.pw."
             },
             {
                 "name": "FAQ",
-                "value": "Some of the most frequently asked questions and answers are listed [here](https://twitch.disgd.pw/how-to.html)."
+                "value": "Die am Häufigsten gestellten Fragen und Antworten findest du hier [here](https://twitch.disgd.pw/how-to.html)."
             },
             {
                 "name": "Upvote",
@@ -80,21 +80,21 @@
             },
             {
                 "name": "Partners",
-                "value": "We're looking for passionate Twitch streamers who use TwitchBot. Apply and get exclusive rewards: https://twitch.disgd.pw/partners"
+                "value": "Wir suchen leidenschaftiliche Twitch Streamer die TwitchBot benutzen. Bewirb dich und erhalte exclusive Belohnungen: https://twitch.disgd.pw/partners"
             },
             {
                 "name": ":flag_us: :flag_gb: :flag_es: :flag_br: :flag_fr: :flag_jp:",
-                "value": "Want to help translate TwitchBot to your language? We're hiring volunteer translators to make TwitchBot available in multiple languages!\n\n**Apply here if you're interested: https://twitch.disgd.pw/translators**"
+                "value": "Möchtest du helfen, TwitchBot in deine Sprache zu übersetzen? Wir stellen freiwillige Übersetzer ein, um TwitchBot in verschiedenen Sprachen verfügbar zu machen!\n\n**Bewirb dich hier, wenn du interessiert bist: https://twitch.disgd.pw/translators**"
             }
         ]
     },
     "commands": {
         "commandsTitle": "<:twitch:404633403603025921> TwitchBot Commands",
-        "commandsIntroMsg": "**Do not put `<>` or `[]` around command arguments.**",
+        "commandsIntroMsg": "**Setze weder `<>` noch `[]` um Befehlsparameter.**",
         "fields": [
             {
                 "name": "General",
-                "value": "`twitch help` - Shows bot help\n`twitch info` - Shows bot info\n`twitch invite` - Displays a link to add TwitchBot to your server\n`twitch status` - Shows bot status\n`twitch ping` - Pong!"
+                "value": "`twitch help` - Zeigt die Hilfe an\n`twitch info` - Shows bot info\n`twitch invite` - Displays a link to add TwitchBot to your server\n`twitch status` - Shows bot status\n`twitch ping` - Pong!"
             },
             {
                 "name": "Twitch",
@@ -114,7 +114,7 @@
             },
             {
                 "name": "Moderation",
-                "value": "`twitch ban <@user> [reason]` - Bans a user\n`twitch kick <@user> [reason]` - Kicks a user\n`twitch purge <amt>` - Deletes <amt> messages from the channel\n`twitch filter set <sensitivity>` - Sets the server-wide toxicity filter\n`twitch filter remove` - Removes the server-wide toxicity filter"
+                "value": "`twitch ban <@user> [reason]` - Bannt einen Benutezr\n`twitch kick <@user> [reason]` - Kickt einen Benutzer\n`twitch purge <amt>` - Löscht <amt> Nachrichten des Kanals\n`twitch filter set <sensitivity>` - Sets the server-wide toxicity filter\n`twitch filter remove` - Removes the server-wide toxicity filter"
             },
             {
                 "name": "Game Stats",
@@ -134,8 +134,8 @@
     "clips": {
         "invalidSubcommand": "Type `twitch help clips` to view command usage.",
         "noClipsFound": "No clips found.",
-        "noClipsFoundForGame": "Couldn't find any clips for that game.",
-        "noClipsFoundForUser": "Couldn't find any clips for that user.",
+        "noClipsFoundForGame": "Es konnten keine Clips für dieses Spiel gefunden werden.",
+        "noClipsFoundForUser": "Es konnten keine Clips für diesen Benutzer gefunden werden.",
         "clipMessage": "Check out {user} playing {game}:"
     },
     "games": {
@@ -158,7 +158,7 @@
         "usageValue": "**•** {} Server\n**•** {} Nutzer\n**•** {} Befehle genutzt\n**•** {} Live Checks\n**•** {} Streamer Benachrichtigungen",
         "systemValue": "**•** {}% CPU\n**•** {}/{}MB memory used",
         "shardInfoValue": "**•** Current shard: {} (real: {})\n**•** Shard latency: {}ms\n**•** Total shards: {}",
-        "infoMsg1": "**{author}**, you can invite me to a server with this link:\n**<https://discordapp.com/api/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot>**",
+        "infoMsg1": "**{author}**, du kannst mich mit diesem Link auf einen Server einladen:\n**<https://discordapp.com/api/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot>**",
         "infoMsg2": "You can also join the support server here:\n**<https://discord.me/konomi>**",
         "statusTitle": "<:twitch:404633403603025921> Twitch Status",
         "statusValue": "Aktueller Status: `{}`"
@@ -172,21 +172,21 @@
         "liveCheckSetUpSuccess": "Users in this server who go live on Twitch will receive the `{}` role.",
         "userLiveAuditLog": "User went live on Twitch",
         "userNotLiveAuditLog": "User no longer live on Twitch",
-        "noBotManageRoles": "I need the **`Manage Roles`** permission to do this. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
+        "noBotManageRoles": "Ich brauche die **`Manage Roles`** Berechtigung, um das zu tun. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
     },
     "moderation": {
         "defaultModActionReason": "Kein Grund angegeben.",
         "auditLogTemplate": "Responsible moderator: {moderator}\nReason: {reason}",
-        "banFailed": "That member couldn't be banned. Do they have a higher role than me?",
-        "kickFailed": "That member couldn't be kicked. Do they have a higher role than me?",
+        "banFailed": "Dieses Mitglied konnte nicht gebannt werden. Do they have a higher role than me?",
+        "kickFailed": "Dieses Mitglied konnte nicht gekickt werden. Do they have a higher role than me?",
         "invalidMsgAmt": "You can't delete more than 99 or less than 2 messages.",
-        "banSuccess": "Successfully banned **{user}** for reason **{reason}**",
-        "kickSuccess": "Successfully kicked **{user}** for reason **{reason}**",
-        "pruneSuccess": "Deleted {amount} messages.",
-        "pruneGenericError": "Something went wrong. `{errorType}: {errorMsg}`",
+        "banSuccess": "**{user}** wurde erfolgreich wegen **{reason}** gebannt",
+        "kickSuccess": "**{user}** wurde erfolgreich wegen **{reason}** gekickt",
+        "pruneSuccess": "{amount} Nachrichten wurden gelöscht.",
+        "pruneGenericError": "Etwas ist schief gelaufen. `{errorType}: {errorMsg}`",
         "invalidFilterSubcommand": "Type `twitch help filter` to view command usage.",
-        "filterDonateMsg": "You need to donate to use this command! <https://paypal.me/akireee>",
-        "invalidSensitivity": "Sensitivity can't be above 85 or below 60.",
+        "filterDonateMsg": "Du musst spenden, um diesen Befehl auszuführen! <https://paypal.me/akireee>",
+        "invalidSensitivity": "Sensitivität kann nicht über 85 oder unter 60 liegen.",
         "filterUpdateSuccess": "Successfully set this server's toxicity filter to **{amount}%**",
         "noFilter": "No toxicity filter was applied in this server.",
         "removedFilterSuccess": "Successfully removed this server's toxicity filter."
@@ -205,18 +205,18 @@
         "rlPoweredBy": "Powered by rocketleaguestats.com"
     },
     "streams": {
-        "invalidSubcommand": "Type `twitch commands` to view command usage.",
+        "invalidSubcommand": "Tippe `twitch commands` um die Befehle anzusehen.",
         "twitchUserDoesNotExist": "That user doesn't exist or is not online. Make sure you're only entering the user's name and not anything extra, like `()` or `<>`.",
         "streamUserMsg": "Playing {2} for {0} viewers\n**[Watch on Twitch](https://twitch.tv/{1})** or type `twitch watch {1}`\n\nStream Preview:",
         "streamWatchMsg": "**<:twitch:404633403603025921> Live on Twitch**\nhttps://twitch.tv/{user}",
-        "gameNotFound": "That game could not be found.",
-        "noStreamsForGame": "Nobody is streaming that game.",
+        "gameNotFound": "Das Spiel konnte nicht gefunden werden.",
+        "noStreamsForGame": "Niemand streamt dieses Spiel.",
         "streamGameOrTopMsg": "Check out {0} playing {1} for {2} viewers:\nhttps://twitch.tv/{0}"
     },
     "users": {
         "twitchUserNotFound": "That user doesn't exist. If you entered the user's full profile url, try redoing the command with just their user name.",
-        "currentlyLive": "Currently Live",
-        "currentlyOffline": "Currently Offline",
+        "currentlyLive": "Momentan Live",
+        "currentlyOffline": "Momentan Offline",
         "onlineUserMsg": "Playing {game} for {viewers} viewers\n\n**[Watch on Twitch](https://twitch.tv/{user})**",
         "offlineUserMsg": "[View Twitch Profile](https://twitch.tv/{})"
     }
